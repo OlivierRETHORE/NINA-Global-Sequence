@@ -1,0 +1,296 @@
+{
+  "$id": "1",
+  "$type": "NINA.Sequencer.Container.SequentialContainer, NINA.Sequencer",
+  "Strategy": {
+    "$type": "NINA.Sequencer.Container.ExecutionStrategy.SequentialStrategy, NINA.Sequencer"
+  },
+  "Name": "A_Define global variables",
+  "Conditions": {
+    "$id": "2",
+    "$type": "System.Collections.ObjectModel.ObservableCollection`1[[NINA.Sequencer.Conditions.ISequenceCondition, NINA.Sequencer]], System.ObjectModel",
+    "$values": []
+  },
+  "IsExpanded": true,
+  "Items": {
+    "$id": "3",
+    "$type": "System.Collections.ObjectModel.ObservableCollection`1[[NINA.Sequencer.SequenceItem.ISequenceItem, NINA.Sequencer]], System.ObjectModel",
+    "$values": [
+      {
+        "$id": "4",
+        "$type": "NINA.Sequencer.SequenceItem.Utility.Annotation, NINA.Sequencer",
+        "Text": "Variables globales liée à l'équipement à déclarer et initialiser dans le Plugin Sequencer Power Ups",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "5",
+        "$type": "NINA.Sequencer.SequenceItem.Utility.Annotation, NINA.Sequencer",
+        "Text": "Variable à déclarer et initialiser dans le Plugin pour tous les profils : TELESCOPE",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "6",
+        "$type": "NINA.Sequencer.SequenceItem.Utility.Annotation, NINA.Sequencer",
+        "Text": "Variable à déclarer et initialiser dans le Plugin pour le profil : LOCATION",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "7",
+        "$type": "NINA.Sequencer.SequenceItem.Utility.Annotation, NINA.Sequencer",
+        "Text": "Variable à déclarer et initialiser dans le Plugin pour le profil : CALIBRATION",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "8",
+        "$type": "NINA.Sequencer.SequenceItem.Utility.Annotation, NINA.Sequencer",
+        "Text": "Variable à déclarer et initialiser dans le Plugin pour tous les profils : KEEPDEWHEATERS",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "9",
+        "$type": "NINA.Sequencer.SequenceItem.Utility.Annotation, NINA.Sequencer",
+        "Text": "Variable à déclarer et initialiser dans le Plugin pour le profil : WORKTYPE",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "10",
+        "$type": "NINA.Sequencer.SequenceItem.Utility.Annotation, NINA.Sequencer",
+        "Text": "Variable à déclarer et initialiser dans le Plugin pour le profil : FOCUSONTHEPOLE",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "11",
+        "$type": "NINA.Sequencer.SequenceItem.Utility.Annotation, NINA.Sequencer",
+        "Text": "Variable à déclarer et initialiser dans le Plugin pour le profil : COOLING",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "12",
+        "$type": "NINA.Sequencer.SequenceItem.Utility.Annotation, NINA.Sequencer",
+        "Text": "Variables de travail de la séquence",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "13",
+        "$type": "WhenPlugin.When.SetGlobalVariable, WhenPlugin",
+        "OriginalDefinition": "\"\"",
+        "Variable": null,
+        "OValueExpr": null,
+        "Identifier": "CAMERA",
+        "Definition": "",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "14",
+        "$type": "WhenPlugin.When.SetGlobalVariable, WhenPlugin",
+        "OriginalDefinition": "\"\"",
+        "Variable": null,
+        "OValueExpr": null,
+        "Identifier": "POWERBOX",
+        "Definition": "",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "15",
+        "$type": "WhenPlugin.When.SetGlobalVariable, WhenPlugin",
+        "OriginalDefinition": "0",
+        "Variable": null,
+        "OValueExpr": null,
+        "Identifier": "EXPNBR",
+        "Definition": "",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "16",
+        "$type": "WhenPlugin.When.SetGlobalVariable, WhenPlugin",
+        "OriginalDefinition": "0",
+        "Variable": null,
+        "OValueExpr": null,
+        "Identifier": "EXPTIME",
+        "Definition": "",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "17",
+        "$type": "WhenPlugin.When.SetGlobalVariable, WhenPlugin",
+        "OriginalDefinition": "\"False\"",
+        "Variable": null,
+        "OValueExpr": null,
+        "Identifier": "EXPOSUREDONE",
+        "Definition": "",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "18",
+        "$type": "WhenPlugin.When.SetGlobalVariable, WhenPlugin",
+        "OriginalDefinition": "0",
+        "Variable": null,
+        "OValueExpr": null,
+        "Identifier": "NBRBADEXPOSURES",
+        "Definition": "",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "19",
+        "$type": "WhenPlugin.When.SetGlobalVariable, WhenPlugin",
+        "OriginalDefinition": "\"\"",
+        "Variable": null,
+        "OValueExpr": null,
+        "Identifier": "PREVIOUSFILTER",
+        "Definition": "",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "20",
+        "$type": "WhenPlugin.When.SetGlobalVariable, WhenPlugin",
+        "OriginalDefinition": "11",
+        "Variable": null,
+        "OValueExpr": null,
+        "Identifier": "NBRFLATSLRVB",
+        "Definition": "",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "21",
+        "$type": "WhenPlugin.When.SetGlobalVariable, WhenPlugin",
+        "OriginalDefinition": "11",
+        "Variable": null,
+        "OValueExpr": null,
+        "Identifier": "NBRFLATSHSO",
+        "Definition": "",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "22",
+        "$type": "NINA.Sequencer.SequenceItem.Utility.Annotation, NINA.Sequencer",
+        "Text": "Noms des filtres spéciaux utilisés dans l'ensemble des équipements",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "23",
+        "$type": "WhenPlugin.When.SetGlobalVariable, WhenPlugin",
+        "OriginalDefinition": "\"T\"",
+        "Variable": null,
+        "OValueExpr": null,
+        "Identifier": "Filter_T",
+        "Definition": "",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "24",
+        "$type": "WhenPlugin.When.SetGlobalVariable, WhenPlugin",
+        "OriginalDefinition": "\"Q\"",
+        "Variable": null,
+        "OValueExpr": null,
+        "Identifier": "Filter_Q",
+        "Definition": "",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      },
+      {
+        "$id": "25",
+        "$type": "WhenPlugin.When.SetGlobalVariable, WhenPlugin",
+        "OriginalDefinition": "\"P\"",
+        "Variable": null,
+        "OValueExpr": null,
+        "Identifier": "Filter_P",
+        "Definition": "",
+        "Parent": {
+          "$ref": "1"
+        },
+        "ErrorBehavior": 0,
+        "Attempts": 1
+      }
+    ]
+  },
+  "Triggers": {
+    "$id": "26",
+    "$type": "System.Collections.ObjectModel.ObservableCollection`1[[NINA.Sequencer.Trigger.ISequenceTrigger, NINA.Sequencer]], System.ObjectModel",
+    "$values": []
+  },
+  "Parent": null,
+  "ErrorBehavior": 0,
+  "Attempts": 1
+}
